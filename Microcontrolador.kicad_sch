@@ -11,30 +11,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 224.79 111.76 0)
+			(property "Reference" "IC2"
+				(at 227.33 -11.3598 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "R7F125FPL4AFB-C#UA0"
-				(at 224.79 109.22 0)
+				(at 227.33 -13.8998 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "QFP50P1600X1600X160-100N"
-				(at 224.79 9.22 0)
+				(at 215.9 -8.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -46,7 +44,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.renesas.com/en/products/rl78-f25"
-				(at 224.79 -90.78 0)
+				(at 215.9 -108.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,7 +56,7 @@
 				)
 			)
 			(property "Description" "The RL78/F25 next-generation super-low power automotive microcontrollers are ideal for realizing future highly reliable smart actuators and sensors, as well as low-end body electronic control units (ECUs). As an innovative prolongation of the known RL78/F1x MCUs, the RL78/F25 can cover prospective market requirements. With its increased CPU performance, high-temperature capability, and enhanced peripheral feature set, the RL78/F25 is a perfect fit for various applications.RL78/F2x products are designed acco"
-				(at 0 0 0)
+				(at -8.89 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -154,8 +152,8 @@
 			)
 			(symbol "R7F125FPL4AFB-C#UA0_1_1"
 				(rectangle
-					(start 5.08 106.68)
-					(end 223.52 -170.18)
+					(start 66.04 -8.89)
+					(end 214.63 -187.96)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -165,7 +163,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 66.04 -45.72 0)
 					(length 5.08)
 					(name "P153_/_(SCK11)"
 						(effects
@@ -183,7 +181,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 66.04 -48.26 0)
 					(length 5.08)
 					(name "P152_/_(SI11)"
 						(effects
@@ -201,7 +199,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 66.04 -50.8 0)
 					(length 5.08)
 					(name "P151_/_(SO11)"
 						(effects
@@ -219,7 +217,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 66.04 -53.34 0)
 					(length 5.08)
 					(name "P150_/_(SSI11)"
 						(effects
@@ -237,7 +235,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at 66.04 -55.88 0)
 					(length 5.08)
 					(name "P47_/_INTP13"
 						(effects
@@ -255,7 +253,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -12.7 0)
+					(at 66.04 -58.42 0)
 					(length 5.08)
 					(name "P46_/_(TI12)_/_(TO12)"
 						(effects
@@ -273,7 +271,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 0)
+					(at 66.04 -60.96 0)
 					(length 5.08)
 					(name "P45_/_(TI10)_/_(TO10)"
 						(effects
@@ -291,7 +289,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -17.78 0)
+					(at 66.04 -63.5 0)
 					(length 5.08)
 					(name "P44_/_(TI07)_/_(TO07)"
 						(effects
@@ -309,7 +307,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -20.32 0)
+					(at 66.04 -66.04 0)
 					(length 5.08)
 					(name "P43_/_(LRXD0)"
 						(effects
@@ -327,7 +325,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 0)
+					(at 66.04 -68.58 0)
 					(length 5.08)
 					(name "P42_/_(LTXD0)"
 						(effects
@@ -345,7 +343,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -25.4 0)
+					(at 66.04 -71.12 0)
 					(length 5.08)
 					(name "P41_/_VCOUT0_/_TI10_/_TO10_/_TRJIO0_/_TRD0RES_/_(SI10)_/_(RXD1)_/_SNZOUT2"
 						(effects
@@ -363,7 +361,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -27.94 0)
+					(at 66.04 -73.66 0)
 					(length 5.08)
 					(name "P40_/_TOOL0"
 						(effects
@@ -381,7 +379,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -30.48 0)
+					(at 66.04 -76.2 0)
 					(length 5.08)
 					(name "RESET"
 						(effects
@@ -399,7 +397,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -33.02 0)
+					(at 66.04 -78.74 0)
 					(length 5.08)
 					(name "P124_/_XT2_/_EXCLKS"
 						(effects
@@ -417,7 +415,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 0)
+					(at 66.04 -81.28 0)
 					(length 5.08)
 					(name "P123_/_XT1"
 						(effects
@@ -435,7 +433,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -38.1 0)
+					(at 66.04 -83.82 0)
 					(length 5.08)
 					(name "P137_/_INTP0"
 						(effects
@@ -453,7 +451,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 0)
+					(at 66.04 -86.36 0)
 					(length 5.08)
 					(name "P122_/_X2_/_EXCLK"
 						(effects
@@ -471,7 +469,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -43.18 0)
+					(at 66.04 -88.9 0)
 					(length 5.08)
 					(name "P121_/_X1"
 						(effects
@@ -489,7 +487,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -45.72 0)
+					(at 66.04 -91.44 0)
 					(length 5.08)
 					(name "REGC"
 						(effects
@@ -507,7 +505,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -48.26 0)
+					(at 66.04 -93.98 0)
 					(length 5.08)
 					(name "VSS"
 						(effects
@@ -525,7 +523,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -50.8 0)
+					(at 66.04 -96.52 0)
 					(length 5.08)
 					(name "EVSS0"
 						(effects
@@ -543,7 +541,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -53.34 0)
+					(at 66.04 -99.06 0)
 					(length 5.08)
 					(name "VDD"
 						(effects
@@ -561,7 +559,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -55.88 0)
+					(at 66.04 -101.6 0)
 					(length 5.08)
 					(name "EVDD0"
 						(effects
@@ -579,7 +577,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -58.42 0)
+					(at 66.04 -104.14 0)
 					(length 5.08)
 					(name "P60_/_(TO01)_/_(SCK00)_/_(SCL00)_/_CRXD1_/_TS0"
 						(effects
@@ -597,7 +595,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -60.96 0)
+					(at 66.04 -106.68 0)
 					(length 5.08)
 					(name "P61_/_(TO02)_/_(SI00)_/_(SDA00)_/_(RXD0)_/_CTXD1_/_TS1"
 						(effects
@@ -615,7 +613,7 @@
 					)
 				)
 				(pin passive line
-					(at 83.82 -175.26 90)
+					(at 82.55 -187.96 90)
 					(length 5.08)
 					(name "P62_/_(TO03)_/_(SO00)_/_(TXD0)_/_SCLA0_/_TS2"
 						(effects
@@ -633,7 +631,7 @@
 					)
 				)
 				(pin passive line
-					(at 86.36 -175.26 90)
+					(at 85.09 -187.96 90)
 					(length 5.08)
 					(name "P63_/_(TO07)_/_(SSI00)_/_SDAA0_/_TS3"
 						(effects
@@ -651,7 +649,7 @@
 					)
 				)
 				(pin passive line
-					(at 88.9 -175.26 90)
+					(at 87.63 -187.96 90)
 					(length 5.08)
 					(name "P64_/_(TI14)_/_(TO14)_/_(SNZOUT3)_/_TS4"
 						(effects
@@ -669,7 +667,7 @@
 					)
 				)
 				(pin passive line
-					(at 91.44 -175.26 90)
+					(at 90.17 -187.96 90)
 					(length 5.08)
 					(name "P65_/_(TI16)_/_(TO16)_/_(SNZOUT2)_/_TS5"
 						(effects
@@ -687,7 +685,7 @@
 					)
 				)
 				(pin passive line
-					(at 93.98 -175.26 90)
+					(at 92.71 -187.96 90)
 					(length 5.08)
 					(name "P66_/_(TI00)_/_(TO00)_/_TS6"
 						(effects
@@ -705,7 +703,7 @@
 					)
 				)
 				(pin passive line
-					(at 96.52 -175.26 90)
+					(at 95.25 -187.96 90)
 					(length 5.08)
 					(name "P67_/_(TI02)_/_(TO02)_/_TS7"
 						(effects
@@ -723,7 +721,7 @@
 					)
 				)
 				(pin passive line
-					(at 99.06 -175.26 90)
+					(at 97.79 -187.96 90)
 					(length 5.08)
 					(name "P154_/_LRXD2_/_(SNZOUT7)"
 						(effects
@@ -741,7 +739,7 @@
 					)
 				)
 				(pin passive line
-					(at 101.6 -175.26 90)
+					(at 100.33 -187.96 90)
 					(length 5.08)
 					(name "P155_/_LTXD2_/_(SNZOUT6)"
 						(effects
@@ -759,7 +757,7 @@
 					)
 				)
 				(pin passive line
-					(at 104.14 -175.26 90)
+					(at 102.87 -187.96 90)
 					(length 5.08)
 					(name "P00_/_(TI05)_/_(TO05)_/_INTP9"
 						(effects
@@ -777,7 +775,7 @@
 					)
 				)
 				(pin passive line
-					(at 106.68 -175.26 90)
+					(at 105.41 -187.96 90)
 					(length 5.08)
 					(name "P156_/_(SNZOUT5)"
 						(effects
@@ -795,7 +793,7 @@
 					)
 				)
 				(pin passive line
-					(at 109.22 -175.26 90)
+					(at 107.95 -187.96 90)
 					(length 5.08)
 					(name "P157_/_(SNZOUT4)"
 						(effects
@@ -813,7 +811,7 @@
 					)
 				)
 				(pin passive line
-					(at 111.76 -175.26 90)
+					(at 110.49 -187.96 90)
 					(length 5.08)
 					(name "P140_/_TRD1RES_/_PCLBUZ0"
 						(effects
@@ -831,7 +829,7 @@
 					)
 				)
 				(pin passive line
-					(at 114.3 -175.26 90)
+					(at 113.03 -187.96 90)
 					(length 5.08)
 					(name "P130_/_RESOUT"
 						(effects
@@ -849,7 +847,7 @@
 					)
 				)
 				(pin passive line
-					(at 116.84 -175.26 90)
+					(at 115.57 -187.96 90)
 					(length 5.08)
 					(name "P77_/_(SSI10)_/_TS8_/_INTP12_/_KR7"
 						(effects
@@ -867,7 +865,7 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 -175.26 90)
+					(at 118.11 -187.96 90)
 					(length 5.08)
 					(name "P76_/_(SCK10)_/_TS9_/_KR6"
 						(effects
@@ -885,7 +883,7 @@
 					)
 				)
 				(pin passive line
-					(at 121.92 -175.26 90)
+					(at 120.65 -187.96 90)
 					(length 5.08)
 					(name "P75_/_(SI10)_/_(RXD1)_/_TS10_/_KR5"
 						(effects
@@ -903,7 +901,7 @@
 					)
 				)
 				(pin passive line
-					(at 124.46 -175.26 90)
+					(at 123.19 -187.96 90)
 					(length 5.08)
 					(name "P74_/_ANI28_/_(SO10)_/_(TXD1)_/_TS11_/_KR4"
 						(effects
@@ -921,7 +919,7 @@
 					)
 				)
 				(pin passive line
-					(at 127 -175.26 90)
+					(at 125.73 -187.96 90)
 					(length 5.08)
 					(name "EVSS1"
 						(effects
@@ -939,7 +937,7 @@
 					)
 				)
 				(pin passive line
-					(at 129.54 -175.26 90)
+					(at 128.27 -187.96 90)
 					(length 5.08)
 					(name "P73_/_ANI27_/_SSI11_/_(CRXD0)_/_SNZOUT7_/_TS12_/_KR3"
 						(effects
@@ -957,7 +955,7 @@
 					)
 				)
 				(pin passive line
-					(at 132.08 -175.26 90)
+					(at 130.81 -187.96 90)
 					(length 5.08)
 					(name "P72_/_ANI26_/_SO11_/_(CTXD0)_/_SNZOUT6_/_TS13_/_KR2"
 						(effects
@@ -975,7 +973,7 @@
 					)
 				)
 				(pin passive line
-					(at 134.62 -175.26 90)
+					(at 133.35 -187.96 90)
 					(length 5.08)
 					(name "P71_/_ANI25_/_TI17_/_TO17_/_SCK11_/_SCL11_/_(LRXD2)_/_TS14_/_INTP6_/_SNZOUT5_/_KR1"
 						(effects
@@ -993,7 +991,7 @@
 					)
 				)
 				(pin passive line
-					(at 137.16 -175.26 90)
+					(at 135.89 -187.96 90)
 					(length 5.08)
 					(name "P70_/_ANI24_/_TI15_/_TO15_/_SI11_/_SDA11_/_(LTXD2)_/_TS15_/_INTP8_/_SNZOUT4_/_KR0"
 						(effects
@@ -1011,7 +1009,7 @@
 					)
 				)
 				(pin passive line
-					(at 139.7 -175.26 90)
+					(at 138.43 -187.96 90)
 					(length 5.08)
 					(name "P03_/_(RTC1HZ)"
 						(effects
@@ -1029,7 +1027,7 @@
 					)
 				)
 				(pin passive line
-					(at 142.24 -175.26 90)
+					(at 140.97 -187.96 90)
 					(length 5.08)
 					(name "P32_/_TI16_/_TO16_/_(SO11)_/_INTP7"
 						(effects
@@ -1047,7 +1045,7 @@
 					)
 				)
 				(pin passive line
-					(at 144.78 -175.26 90)
+					(at 143.51 -187.96 90)
 					(length 5.08)
 					(name "P30_/_TI01_/_TO01_/_TRDIOD1_/_SSI00_/_INTP2_/_SNZOUT0"
 						(effects
@@ -1065,7 +1063,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -60.96 180)
+					(at 219.71 -78.74 180)
 					(length 5.08)
 					(name "P17_/_TI00_/_TO00_/_TRDIOB1_/_SCK00_/_SCL00_/_TS16_/_INTP3"
 						(effects
@@ -1083,7 +1081,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -58.42 180)
+					(at 219.71 -76.2 180)
 					(length 5.08)
 					(name "P16_/_TI02_/_TO02_/_TRDIOC1_/_SI00_/_SDA00_/_RXD0_/_TS17_/_TOOLRXD"
 						(effects
@@ -1101,7 +1099,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -55.88 180)
+					(at 219.71 -73.66 180)
 					(length 5.08)
 					(name "EVDD1"
 						(effects
@@ -1119,7 +1117,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -53.34 180)
+					(at 219.71 -71.12 180)
 					(length 5.08)
 					(name "P15_/_TI05_/_TO05_/_TRDIOA1_/_(TRDIOA0)_/_(TRDCLK0)_/_SO00_/_TXD0_/_RTC1HZ_/_TS18_/_TOOLTXD"
 						(effects
@@ -1137,7 +1135,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -50.8 180)
+					(at 219.71 -68.58 180)
 					(length 5.08)
 					(name "P31_/_TI14_/_TO14_/_(INTP2)_/_STOPST"
 						(effects
@@ -1155,7 +1153,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -48.26 180)
+					(at 219.71 -66.04 180)
 					(length 5.08)
 					(name "P50_/_(SSI01)_/_TS19_/_(INTP3)"
 						(effects
@@ -1173,7 +1171,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -45.72 180)
+					(at 219.71 -63.5 180)
 					(length 5.08)
 					(name "P51_/_(SO01)_/_TS20_/_INTP11"
 						(effects
@@ -1191,7 +1189,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -43.18 180)
+					(at 219.71 -60.96 180)
 					(length 5.08)
 					(name "P52_/_(SCK01)_/_TS21_/_(STOPST)"
 						(effects
@@ -1209,7 +1207,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -40.64 180)
+					(at 219.71 -58.42 180)
 					(length 5.08)
 					(name "P53_/_(SI01)_/_TS22_/_INTP10"
 						(effects
@@ -1227,7 +1225,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -38.1 180)
+					(at 219.71 -55.88 180)
 					(length 5.08)
 					(name "P14_/_TI06_/_TO06_/_TRDIOC0_/_SCK01_/_SCL01_/_LRXD0_/_TS23"
 						(effects
@@ -1245,7 +1243,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -35.56 180)
+					(at 219.71 -53.34 180)
 					(length 5.08)
 					(name "P13_/_TI04_/_TO04_/_TRDIOA0_/_TRDCLK0_/_SI01_/_SDA01_/_LTXD0_/_TS24"
 						(effects
@@ -1263,7 +1261,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -33.02 180)
+					(at 219.71 -50.8 180)
 					(length 5.08)
 					(name "P12_/_TI11_/_TO11_/_(TRDIOD0)_/_SO10_/_TXD1_/_TSCAP_/_INTP5_/_SNZOUT3"
 						(effects
@@ -1281,7 +1279,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -30.48 180)
+					(at 219.71 -48.26 180)
 					(length 5.08)
 					(name "P11_/_TI12_/_TO12_/_(TRDIOB0)_/_SI10_/_SDA10_/_RXD1_/_CRXD0_/_LRXD1_/_TS25"
 						(effects
@@ -1299,7 +1297,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -27.94 180)
+					(at 219.71 -45.72 180)
 					(length 5.08)
 					(name "P10_/_TI13_/_TO13_/_TRJO0_/_SCK10_/_SCL10_/_CTXD0_/_LTXD1_/_TS26"
 						(effects
@@ -1317,7 +1315,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -25.4 180)
+					(at 219.71 -43.18 180)
 					(length 5.08)
 					(name "P54_/_(TI11)_/_(TO11)_/_SSI10_/_TS27"
 						(effects
@@ -1335,7 +1333,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -22.86 180)
+					(at 219.71 -40.64 180)
 					(length 5.08)
 					(name "P55_/_(TI13)_/_(TO13)_/_TS28"
 						(effects
@@ -1353,7 +1351,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -20.32 180)
+					(at 219.71 -38.1 180)
 					(length 5.08)
 					(name "P56_/_(TI15)_/_(TO15)_/_TS29_/_(SNZOUT1)"
 						(effects
@@ -1371,7 +1369,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -17.78 180)
+					(at 219.71 -35.56 180)
 					(length 5.08)
 					(name "P57_/_(TI17)_/_(TO17)_/_TS30_/_(SNZOUT0)"
 						(effects
@@ -1389,7 +1387,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -15.24 180)
+					(at 219.71 -33.02 180)
 					(length 5.08)
 					(name "P107_/_(LRXD1)"
 						(effects
@@ -1407,7 +1405,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -12.7 180)
+					(at 219.71 -30.48 180)
 					(length 5.08)
 					(name "P106_/_(LTXD1)"
 						(effects
@@ -1425,7 +1423,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -10.16 180)
+					(at 219.71 -27.94 180)
 					(length 5.08)
 					(name "P105_/_ANI21"
 						(effects
@@ -1443,7 +1441,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -7.62 180)
+					(at 219.71 -25.4 180)
 					(length 5.08)
 					(name "P104_/_ANI20"
 						(effects
@@ -1461,7 +1459,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -5.08 180)
+					(at 219.71 -22.86 180)
 					(length 5.08)
 					(name "AVDD_/_AVREFP"
 						(effects
@@ -1479,7 +1477,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 -2.54 180)
+					(at 219.71 -20.32 180)
 					(length 5.08)
 					(name "AVSS_/_AVREFM"
 						(effects
@@ -1497,7 +1495,7 @@
 					)
 				)
 				(pin passive line
-					(at 228.6 0 180)
+					(at 219.71 -17.78 180)
 					(length 5.08)
 					(name "P80_/_ANI0_/_ANO0"
 						(effects
@@ -1515,7 +1513,7 @@
 					)
 				)
 				(pin passive line
-					(at 144.78 111.76 270)
+					(at 172.72 -10.16 270)
 					(length 5.08)
 					(name "P81_/_ANI1"
 						(effects
@@ -1533,7 +1531,7 @@
 					)
 				)
 				(pin passive line
-					(at 142.24 111.76 270)
+					(at 170.18 -10.16 270)
 					(length 5.08)
 					(name "P82_/_ANI2_/_IVCMP00"
 						(effects
@@ -1551,7 +1549,7 @@
 					)
 				)
 				(pin passive line
-					(at 139.7 111.76 270)
+					(at 167.64 -10.16 270)
 					(length 5.08)
 					(name "P83_/_ANI3_/_IVCMP01"
 						(effects
@@ -1569,7 +1567,7 @@
 					)
 				)
 				(pin passive line
-					(at 137.16 111.76 270)
+					(at 165.1 -10.16 270)
 					(length 5.08)
 					(name "P84_/_ANI4_/_IVCMP02"
 						(effects
@@ -1587,7 +1585,7 @@
 					)
 				)
 				(pin passive line
-					(at 134.62 111.76 270)
+					(at 162.56 -10.16 270)
 					(length 5.08)
 					(name "P85_/_ANI5_/_IVREF0_/_IVCMP03"
 						(effects
@@ -1605,7 +1603,7 @@
 					)
 				)
 				(pin passive line
-					(at 132.08 111.76 270)
+					(at 160.02 -10.16 270)
 					(length 5.08)
 					(name "P86_/_ANI6"
 						(effects
@@ -1623,7 +1621,7 @@
 					)
 				)
 				(pin passive line
-					(at 129.54 111.76 270)
+					(at 157.48 -10.16 270)
 					(length 5.08)
 					(name "P87_/_ANI7"
 						(effects
@@ -1641,7 +1639,7 @@
 					)
 				)
 				(pin passive line
-					(at 127 111.76 270)
+					(at 154.94 -10.16 270)
 					(length 5.08)
 					(name "P90_/_ANI8"
 						(effects
@@ -1659,7 +1657,7 @@
 					)
 				)
 				(pin passive line
-					(at 124.46 111.76 270)
+					(at 152.4 -10.16 270)
 					(length 5.08)
 					(name "P91_/_ANI9"
 						(effects
@@ -1677,7 +1675,7 @@
 					)
 				)
 				(pin passive line
-					(at 121.92 111.76 270)
+					(at 149.86 -10.16 270)
 					(length 5.08)
 					(name "P92_/_ANI10"
 						(effects
@@ -1695,7 +1693,7 @@
 					)
 				)
 				(pin passive line
-					(at 119.38 111.76 270)
+					(at 147.32 -10.16 270)
 					(length 5.08)
 					(name "P93_/_ANI11"
 						(effects
@@ -1713,7 +1711,7 @@
 					)
 				)
 				(pin passive line
-					(at 116.84 111.76 270)
+					(at 144.78 -10.16 270)
 					(length 5.08)
 					(name "P94_/_ANI12"
 						(effects
@@ -1731,7 +1729,7 @@
 					)
 				)
 				(pin passive line
-					(at 114.3 111.76 270)
+					(at 142.24 -10.16 270)
 					(length 5.08)
 					(name "P95_/_ANI13"
 						(effects
@@ -1749,7 +1747,7 @@
 					)
 				)
 				(pin passive line
-					(at 111.76 111.76 270)
+					(at 139.7 -10.16 270)
 					(length 5.08)
 					(name "P96_/_ANI14"
 						(effects
@@ -1767,7 +1765,7 @@
 					)
 				)
 				(pin passive line
-					(at 109.22 111.76 270)
+					(at 137.16 -10.16 270)
 					(length 5.08)
 					(name "P97_/_ANI15"
 						(effects
@@ -1785,7 +1783,7 @@
 					)
 				)
 				(pin passive line
-					(at 106.68 111.76 270)
+					(at 134.62 -10.16 270)
 					(length 5.08)
 					(name "P100_/_ANI16"
 						(effects
@@ -1803,7 +1801,7 @@
 					)
 				)
 				(pin passive line
-					(at 104.14 111.76 270)
+					(at 132.08 -10.16 270)
 					(length 5.08)
 					(name "P101_/_ANI17"
 						(effects
@@ -1821,7 +1819,7 @@
 					)
 				)
 				(pin passive line
-					(at 101.6 111.76 270)
+					(at 129.54 -10.16 270)
 					(length 5.08)
 					(name "P102_/_ANI18"
 						(effects
@@ -1839,7 +1837,7 @@
 					)
 				)
 				(pin passive line
-					(at 99.06 111.76 270)
+					(at 127 -10.16 270)
 					(length 5.08)
 					(name "P103_/_ANI19"
 						(effects
@@ -1857,7 +1855,7 @@
 					)
 				)
 				(pin passive line
-					(at 96.52 111.76 270)
+					(at 124.46 -10.16 270)
 					(length 5.08)
 					(name "P02_/_(TI06)_/_(TO06)"
 						(effects
@@ -1875,7 +1873,7 @@
 					)
 				)
 				(pin passive line
-					(at 93.98 111.76 270)
+					(at 121.92 -10.16 270)
 					(length 5.08)
 					(name "P127_/_(TI03)_/_(TO03)"
 						(effects
@@ -1893,7 +1891,7 @@
 					)
 				)
 				(pin passive line
-					(at 91.44 111.76 270)
+					(at 119.38 -10.16 270)
 					(length 5.08)
 					(name "P126_/_(TI01)_/_(TO01)"
 						(effects
@@ -1911,7 +1909,7 @@
 					)
 				)
 				(pin passive line
-					(at 88.9 111.76 270)
+					(at 116.84 -10.16 270)
 					(length 5.08)
 					(name "P01_/_(TI04)_/_(TO04)"
 						(effects
@@ -1929,7 +1927,7 @@
 					)
 				)
 				(pin passive line
-					(at 86.36 111.76 270)
+					(at 114.3 -10.16 270)
 					(length 5.08)
 					(name "P125_/_ANI22_/_TI03_/_TO03_/_TRDIOB0_/_SSI01_/_(LRXD1)_/_INTP1_/_SNZOUT1"
 						(effects
@@ -1947,7 +1945,7 @@
 					)
 				)
 				(pin passive line
-					(at 83.82 111.76 270)
+					(at 111.76 -10.16 270)
 					(length 5.08)
 					(name "P120_/_ANI23_/_TI07_/_TO07_/_(TO13)_/_TRDIOD0_/_SO01_/_(SCK10)_/_(LTXD1)_/_INTP4"
 						(effects
@@ -1970,23 +1968,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 128.27) (xy 138.43 128.27)
+			(xy 138.43 76.2) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63d4bd72-8b40-4b39-9474-a0d9a5de4960")
+		(uuid "4a27b2bb-37f1-4652-bb0e-ab76cb79a771")
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 138.43 74.93)
+			(xy 158.75 76.2) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89c3e3ee-7890-4d7e-9859-1bdddbd40621")
+		(uuid "4ff8bd6b-7efe-488e-84b9-82055689a61b")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2012,7 +2010,7 @@
 	)
 	(symbol
 		(lib_id "R7F125FPL4AFB-C#UA0:R7F125FPL4AFB-C#UA0")
-		(at 162.56 74.93 0)
+		(at 92.71 -22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2023,7 +2021,7 @@
 		(fields_autoplaced yes)
 		(uuid "f11f3365-7f80-4d88-af57-870f3861a255")
 		(property "Reference" "IC2"
-			(at 398.78 68.5098 0)
+			(at 320.04 -11.5002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2033,7 +2031,7 @@
 			)
 		)
 		(property "Value" "R7F125FPL4AFB-C#UA0"
-			(at 398.78 71.0498 0)
+			(at 320.04 -8.9602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2043,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" "QFP50P1600X1600X160-100N"
-			(at 387.35 65.71 0)
+			(at 308.61 -14.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2053,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.renesas.com/en/products/rl78-f25"
-			(at 387.35 165.71 0)
+			(at 308.61 85.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,7 +2065,7 @@
 			)
 		)
 		(property "Description" "The RL78/F25 next-generation super-low power automotive microcontrollers are ideal for realizing future highly reliable smart actuators and sensors, as well as low-end body electronic control units (ECUs). As an innovative prolongation of the known RL78/F1x MCUs, the RL78/F25 can cover prospective market requirements. With its increased CPU performance, high-temperature capability, and enhanced peripheral feature set, the RL78/F25 is a perfect fit for various applications.RL78/F2x products are designed acco"
-			(at 162.56 74.93 0)
+			(at 83.82 -5.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2078,7 +2076,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 387.35 365.71 0)
+			(at 317.5 267.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +2088,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Renesas Electronics"
-			(at 387.35 465.71 0)
+			(at 317.5 367.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2100,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "R7F125FPL4AFB-C#UA0"
-			(at 387.35 565.71 0)
+			(at 317.5 467.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2114,7 +2112,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 387.35 665.71 0)
+			(at 317.5 567.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2126,7 +2124,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 387.35 765.71 0)
+			(at 317.5 667.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2138,7 +2136,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 387.35 865.71 0)
+			(at 317.5 767.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,7 +2148,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 387.35 965.71 0)
+			(at 317.5 867.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
