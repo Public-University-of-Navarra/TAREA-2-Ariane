@@ -408,7 +408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON95P300X300X90-7N-D"
+		(property "Footprint" "Transformer_SMD:Transformer_NF_ETAL_P2781_HandSoldering"
 			(at 161.29 160.96 0)
 			(hide yes)
 			(show_name no)
