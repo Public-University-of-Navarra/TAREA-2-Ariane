@@ -1,3 +1,6 @@
 "Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet"
-"IC1","1","LDO40LPURY","","","","","${EXCLUDE_FROM_POS_FILES}","SON95P300X300X90-7N-D","https://www.st.com/resource/en/datasheet/ldo40l.pdf"
-"IC2","1","R7F125FPL4AFB-C#UA0","","","","","${EXCLUDE_FROM_POS_FILES}","QFP50P1600X1600X160-100N","https://www.renesas.com/en/products/rl78-f25"
+"C1,C2,C3,C4(desacople)1,C4(desacople)2,C4(desacople)3","6","100n","","","","","${EXCLUDE_FROM_POS_FILES}","Capacitor_SMD:C_0805_2012Metric",""
+"J1","1","Conn_01x02_Pin","","","","","${EXCLUDE_FROM_POS_FILES}","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal",""
+"J2","1","Conn_01x06_Pin","","","","","${EXCLUDE_FROM_POS_FILES}","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal",""
+"R1,R2,R3","3","10k","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0805_2012Metric",""
+"U1","1","STM32G030K8Tx","","","","","${EXCLUDE_FROM_POS_FILES}","Package_QFP:LQFP-32_7x7mm_P0.8mm","https://www.st.com/resource/en/datasheet/stm32g030k8.pdf"
