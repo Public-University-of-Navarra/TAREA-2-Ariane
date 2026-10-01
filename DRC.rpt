@@ -1,0 +1,50 @@
+** Drc report for tarea2.kicad_pcb **
+** Created on 2026-10-01T13:10:53 **
+** Report includes: Errors, Warnings **
+
+** Found 8 DRC violations **
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
+    Local override; error
+    @(142.3200 mm, 103.6000 mm): Pad 1 [/Alimentación/GND] of IC1 on F.Cu
+    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1500 mm)
+    Local override; error
+    @(156.0000 mm, 104.3750 mm): PTH pad 1 [unconnected-(J1-Pin_1-Pad1)] of J1
+    @(157.0000 mm, 104.3750 mm): PTH pad 2 [/Alimentación/GND] of J1
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
+    @(145.0000 mm, 105.5000 mm): Pad 4 [/Alimentación/VDD] of IC1 on F.Cu
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1500 mm)
+    Local override; error
+    @(156.0000 mm, 104.3750 mm): PTH pad 1 [unconnected-(J1-Pin_1-Pad1)] of J1
+    @(157.0000 mm, 104.3750 mm): PTH pad 2 [/Alimentación/GND] of J1
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
+    @(145.0000 mm, 104.5500 mm): Pad 5 [unconnected-(IC1-VSENSE-Pad5)] of IC1 on F.Cu
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
+    @(145.0000 mm, 103.6000 mm): Pad 6 [unconnected-(IC1-ADJ/NC-Pad6)] of IC1 on F.Cu
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
+    @(142.3200 mm, 104.5500 mm): Pad 2 [unconnected-(IC1-EN-Pad2)] of IC1 on F.Cu
+[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
+    @(142.3200 mm, 105.5000 mm): Pad 3 [Net-(IC1-VIN)] of IC1 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
