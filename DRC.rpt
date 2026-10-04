@@ -1,42 +1,30 @@
 ** Drc report for tarea2.kicad_pcb **
-** Created on 2026-10-01T13:10:53 **
+** Created on 2026-10-04T19:07:54 **
 ** Report includes: Errors, Warnings **
 
-** Found 8 DRC violations **
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
-    Local override; error
-    @(142.3200 mm, 103.6000 mm): Pad 1 [/Alimentación/GND] of IC1 on F.Cu
-    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1500 mm)
-    Local override; error
-    @(156.0000 mm, 104.3750 mm): PTH pad 1 [unconnected-(J1-Pin_1-Pad1)] of J1
-    @(157.0000 mm, 104.3750 mm): PTH pad 2 [/Alimentación/GND] of J1
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
-    Local override; error
-    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
-    @(145.0000 mm, 105.5000 mm): Pad 4 [/Alimentación/VDD] of IC1 on F.Cu
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1500 mm)
-    Local override; error
-    @(156.0000 mm, 104.3750 mm): PTH pad 1 [unconnected-(J1-Pin_1-Pad1)] of J1
-    @(157.0000 mm, 104.3750 mm): PTH pad 2 [/Alimentación/GND] of J1
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
-    Local override; error
-    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
-    @(145.0000 mm, 104.5500 mm): Pad 5 [unconnected-(IC1-VSENSE-Pad5)] of IC1 on F.Cu
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
-    Local override; error
-    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
-    @(145.0000 mm, 103.6000 mm): Pad 6 [unconnected-(IC1-ADJ/NC-Pad6)] of IC1 on F.Cu
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
-    Local override; error
-    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
-    @(142.3200 mm, 104.5500 mm): Pad 2 [unconnected-(IC1-EN-Pad2)] of IC1 on F.Cu
-[clearance]: Infracción de margen ( margen 0,2000 mm; real 0,1750 mm)
-    Local override; error
-    @(143.6600 mm, 104.5500 mm): Pad 7 [Net-(IC1-GND_1)] of IC1 on F.Cu
-    @(142.3200 mm, 105.5000 mm): Pad 3 [Net-(IC1-VIN)] of IC1 on F.Cu
+** Found 3 DRC violations **
+[copper_edge_clearance]: Infracción de margen de borde de placa (restricciones de configuración de placa para bordes margen 0,5000 mm; real 0,4940 mm)
+    Rule: restricciones de configuración de placa para bordes; error
+    @(133.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(169.8750 mm, 117.0000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 1.3081 mm
+[copper_edge_clearance]: Infracción de margen de borde de placa (restricciones de configuración de placa para bordes margen 0,5000 mm; real 0,4940 mm)
+    Rule: restricciones de configuración de placa para bordes; error
+    @(133.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(169.8750 mm, 102.3750 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 14.6250 mm
+[copper_edge_clearance]: Infracción de margen de borde de placa (restricciones de configuración de placa para bordes margen 0,5000 mm; real 0,4940 mm)
+    Rule: restricciones de configuración de placa para bordes; error
+    @(133.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(168.2950 mm, 100.7950 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.2345 mm
 
-** Found 0 unconnected pads **
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [/Alimentación/GND] of IC1 on F.Cu
+    @(142.3200 mm, 103.6000 mm): Track [/Alimentación/GND] on F.Cu, length 1.2200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.3200 mm, 105.5000 mm): Pad 3 [Net-(IC1-VIN)] of IC1 on F.Cu
+    @(156.0000 mm, 104.3750 mm): PTH pad 1 [Net-(IC1-VIN)] of J1
 
 ** Found 0 Footprint errors **
 
