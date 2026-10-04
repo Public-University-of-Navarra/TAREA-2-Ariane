@@ -210,7 +210,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.262
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -531,11 +532,11 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "GND",
+        "name": "BUS 50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.355,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -546,7 +547,7 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "POWER",
+        "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -561,9 +562,24 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "SIGNAL",
+        "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SIGNAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -588,6 +604,18 @@
       {
         "netclass": "GND",
         "pattern": "VSS"
+      },
+      {
+        "netclass": "BUS 50R",
+        "pattern": "SPI"
+      },
+      {
+        "netclass": "BUS 50R",
+        "pattern": "I2C"
+      },
+      {
+        "netclass": "BUS 50R",
+        "pattern": "1Wire"
       }
     ]
   },
@@ -786,7 +814,7 @@
         "uuid": "2450fa96-bfdf-43ef-9d5c-9c389bfd976a"
       }
     ],
-    "used_designators": "J1-3,R1-3,IC1-2,U1,C1-4,C4(desacople)1-3",
+    "used_designators": "#FLG1-3,J1-3,R1-3,IC1-2,U1,C1-4,C4(desacople)1-3",
     "variants": []
   },
   "sheets": [
