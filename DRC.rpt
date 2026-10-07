@@ -1,0 +1,38 @@
+** Drc report for tarea2.kicad_pcb **
+** Created on 2026-10-04T19:07:54 **
+** Report includes: Errors, Warnings **
+
+** Found 3 DRC violations **
+[copper_edge_clearance]: Infracción de margen de borde de placa (restricciones de configuración de placa para bordes margen 0,5000 mm; real 0,4940 mm)
+    Rule: restricciones de configuración de placa para bordes; error
+    @(133.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(169.8750 mm, 117.0000 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 1.3081 mm
+[copper_edge_clearance]: Infracción de margen de borde de placa (restricciones de configuración de placa para bordes margen 0,5000 mm; real 0,4940 mm)
+    Rule: restricciones de configuración de placa para bordes; error
+    @(133.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(169.8750 mm, 102.3750 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 14.6250 mm
+[copper_edge_clearance]: Infracción de margen de borde de placa (restricciones de configuración de placa para bordes margen 0,5000 mm; real 0,4940 mm)
+    Rule: restricciones de configuración de placa para bordes; error
+    @(133.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(168.2950 mm, 100.7950 mm): Track [Net-(J2-Pin_1)] on F.Cu, length 2.2345 mm
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.6600 mm, 104.5500 mm): Pad 7 [/Alimentación/GND] of IC1 on F.Cu
+    @(142.3200 mm, 103.6000 mm): Track [/Alimentación/GND] on F.Cu, length 1.2200 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.3200 mm, 105.5000 mm): Pad 3 [Net-(IC1-VIN)] of IC1 on F.Cu
+    @(156.0000 mm, 104.3750 mm): PTH pad 1 [Net-(IC1-VIN)] of J1
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
